@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    display: inline-block;
+    width: 100px;
+}
+
+.dataForm {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonWrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+
