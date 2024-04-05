@@ -1,0 +1,24 @@
+
+.main_wrapper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.image_slide {
+    display: flex;
+}
+
+.img_slider {
+    width: 50vh;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.buttonContainer {
+    position: absolute;
+    display: flex;
+}
